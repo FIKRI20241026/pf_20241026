@@ -12,6 +12,9 @@
 <body>
     <h1>Daftar Mahasiswa</h1>
 
+    <a href="tambah.php">Tambah Data Mahasiswa</a>
+    <br>
+    
     <table border="1" cellpadding="10" cellspacing="0">
 
     <tr>
@@ -28,8 +31,8 @@
             <tr>
                 <td><?= $i; ?></td>
                 <td>
-                    <a href="">Ubah</a>|
-                    <a href="">Hapus</a>
+                    <a href="ubah.php?id=<?= $row["id"]; ?>">Ubah</a>|
+                    <a href="hapus.php?id=<?= $row["id"]; ?> " onclick="return confirm('yakin data di hapus?' );">Hapus</a>
                 </td>
                 <td><img src="img/<?= $row["gambar"]; ?>" alt="" width="50"></td>
                 <td><?= $row["nim"]; ?></td>

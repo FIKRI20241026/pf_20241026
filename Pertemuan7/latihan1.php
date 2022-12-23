@@ -2,17 +2,17 @@
      $mahasiswa = [
         ["nama" => "Fikri",
          "nim" => "20241015",
-         "email" => "rahmaddinata@gmail.com",
+         "email" => "Fikri@gmail.com",
          "jurusan" => "PTI"
         ],
         ["nama" => "Rahmat",
             "nim" => "20241025",
-            "email" => "citra@gmail.com",
+            "email" => "Rahmat@gmail.com",
             "jurusan" => "PTI"
         ],
-        ["nama" => "safar",
+        ["nama" => "Safar",
             "nim" => "20241006",
-            "email" => "safar@gmail.com",
+            "email" => "Safar@gmail.com",
             "jurusan" => "PTI"
         ]
       ];    
