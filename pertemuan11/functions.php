@@ -51,7 +51,7 @@
         $gambar = htmlspecialchars($data["gambar"]);
 
         // membuat query insert  
-        $query = "UPDATE mahasiswa SET
+        $query = "UPDATE  mahasiswa SET
         nama='$nama',
         nim='$nim',
         email='$email',

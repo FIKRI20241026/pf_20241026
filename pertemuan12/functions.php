@@ -65,7 +65,7 @@
     }
 
     function cari($keyword) {
-       $query = "SELECT * FRO mahasiswa
+       $query = "SELECT * FROM mahasiswa
                  WHERE nama LIKE '%$keyword%'
                  OR
                  nim LIKE '$$keyword%'
