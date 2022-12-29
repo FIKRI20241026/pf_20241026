@@ -64,4 +64,17 @@
     return mysqli_affected_rows($conn);
     }
 
+    function cari($keyword) {
+       $query = "SELECT * FRO mahasiswa
+                 WHERE nama LIKE '%$keyword%'
+                 OR
+                 nim LIKE '$$keyword%'
+                 OR
+                 jurusan LIKE '$$keyword%'
+                 OR
+                 email LIKE '$$keyword%'
+                 ";
+
+        return Query($query);
+    }
 ?>
